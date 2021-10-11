@@ -8,7 +8,10 @@
 				<img src="{{ url($product->image ?? 'img/placeholder.jpg') }}" alt="{{ $product->title }}" class="rounded">
 				<div class="product-body">
 					<div>
-						<h5 class="product-title"><span>{{ $product->title }}</span><em>&euro;{{ $product->price }}</em></h5>
+						<div class="product-title">
+							<h5><span>{{ $product->title }}</span></h5>
+							<h5><em>&euro;{{ $product->price }}</em></h5>
+						</div>
 						@unless(empty($product->description))
 							<p>{{ $product->description }}</p>
 						@endunless

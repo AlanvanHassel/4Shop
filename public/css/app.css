@@ -76,9 +76,15 @@ header{
 	align-self: center;
 }
 
+
 .product-body{
 	width: 50%;
 	padding: 1em 2em;
+}
+
+.product-title{
+	display: flex;
+	justify-content: space-between;
 }
 
 .products .form-control{
