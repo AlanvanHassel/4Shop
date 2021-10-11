@@ -43,7 +43,7 @@
       </main>
 
       <footer class="footer">
-        <p><strong>Mail bij vragen: <a href="mailto:winkelbeheer@scoutingrveer.nl">winkelbeheer@scoutingrveer.nl</a></strong> &middot; S.B.B.S. namens Scouting Raamsdonksveer, Kerklaan 22 4942AR Raamsdonksveer, KvK: 41100325, tel: 0162769096.</p>
+        <p>Een winkel van 4S. Heelverweg 240, Breda. Mail bij vragen naar <a href="mailto:winkelbeheer@scoutingrveer.nl">info@4s.nl</a>.</p>
       </footer>
 
     </div>
