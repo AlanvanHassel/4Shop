@@ -10,4 +10,13 @@ class Product extends Model
     {
     	return $this->hasMany('App\Type');
     }
+
+    public function getPriceAttribute($value)
+    {
+        $discount = $value * ($this->discount / 100);  //Kortingineuro's
+        $final_price = $value - $discount;             //Haalkortingafvanprijs
+        return number_format ($final_price, 2);        //Zorgaltijdvoor2decimalen
+    }   
 }
+
+

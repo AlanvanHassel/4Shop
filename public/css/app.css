@@ -90,6 +90,10 @@ header{
 	justify-content: space-between;
 }
 
+.discount-text{
+	color: red;
+}
+
 .products .form-control{
 	margin-top: 1em;
 }

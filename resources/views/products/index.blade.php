@@ -15,6 +15,9 @@
 						@unless(empty($product->description))
 							<p>{{ $product->description }}</p>
 						@endunless
+						<?php if($product->discount >0) {?>
+                            <p class="discount-text"><?php echo "Nu <strong> $product->discount&percnt;</strong> korting!"; ?></p>
+						<?php } ?>
 					</div>
 					<button class="btn btn-primary">Meer info &amp; bestellen</button>
 				</div>
