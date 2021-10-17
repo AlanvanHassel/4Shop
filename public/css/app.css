@@ -115,6 +115,19 @@ span.collapsing{
 	color: white !important;
 }
 
+.category-body{
+	display: flex;
+	justify-content: space-around;
+}
+
+.category-body .form-control{
+	width: 70%;
+}
+
+.category-body li{
+	margin-left: 23px;
+}
+
 @media (max-width: 576px) {
 	h1{
 		font-size: 8vw;

@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class AddCategoryId extends Migration
 {
@@ -14,9 +14,9 @@ class AddCategoryId extends Migration
     public function up()
     {
         Schema::table('products', function (Blueprint $table) {
-            $table->bigInteger('categorie_id')->unsigned()->nullable();
-            $table->foreign('categorie_id')
-                    ->references('id')->on('categories');
+            $table->bigInteger('category_id')->unsigned()->nullable();
+            $table->foreign('category_id')
+                ->references('id')->on('categories');
         });
     }
 
