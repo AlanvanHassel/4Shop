@@ -11,6 +11,11 @@ class Product extends Model
     	return $this->hasMany('App\Type');
     }
 
+    public function categories()
+    {
+    	return $this->hasMany('App\Category');
+    }
+
     public function getPriceAttribute($value)
     {
         $discount = $value * ($this->discount / 100);  //Kortingineuro's
